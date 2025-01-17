@@ -69,3 +69,12 @@ start :- format('~n~n--========================================--~n~n'),
 :- initialization start.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%obter_controles([X,Y,ANGLE,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,SCORE,SPEED], [FORWARD, REVERSE, LEFT, RIGHT, BOOM]) :-
+%%    random_between(0,1,AA),
+%%    troca(AA, BB),
+%%    random_between(0,1,CC),
+%%    FORWARD is AA,
+%%    REVERSE is 0,
+%%    LEFT is AA,
+%%    RIGHT is BB,
+%%    BOOM is CC.
